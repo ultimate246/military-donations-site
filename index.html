@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support Our Heroes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      flex-direction: row;
+    }
+    .content {
+      flex: 1;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://pbs.twimg.com/media/GA5XIkIaIAA148f?format=jpg&name=small') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #0B3D91;
+    }
+    .section p {
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: center;
+    }
+    .gallery-slider {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      padding: 10px;
+      scroll-snap-type: x mandatory;
+      justify-content: center;
+    }
+    .gallery-slider img {
+      flex: 0 0 auto;
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      scroll-snap-align: center;
+    }
+    .donate-button {
+      display: inline-block;
+      background-color: #FBB040;
+      color: #0B3D91;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+    .make-difference {
+      background: url('https://i.pinimg.com/736x/b5/77/fd/b577fdcbfed394771cc62383970d84ac.jpg') center/cover no-repeat;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .make-difference h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .make-difference p {
+      font-size: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .why-we-need-you {
+      background: url('https://media.istockphoto.com/id/171382149/photo/donation-jar.jpg?b=1&s=612x612&w=0&k=20&c=vvvdFNPc3-CqpA4zRU-dTEEe4yyCzcltLkLAt_GKhZ4=') center/cover no-repeat;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .why-we-need-you h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .why-we-need-you p {
+      font-size: 20px;
+      max-width: 800px;
+      margin: 0 auto 10px;
+    }
+    .policies {
+      display: none;
+    }
+    .sidebar {
+      width: 300px;
+      background-color: #fff;
+      border-left: 1px solid #ccc;
+      padding: 20px;
+      box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+    }
+    .sidebar h3 {
+      color: #0B3D91;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .sidebar div {
+      margin-bottom: 20px;
+    }
+    .sidebar p {
+      font-size: 16px;
+      color: #555;
+      margin: 5px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <header>
+      <h1>Help Our Wounded Veterans Heal — Because They Fought for Us</h1>
+      <p>Every day, brave soldiers face battles long after the war ends. Your gift provides life-changing care and hope to those who sacrificed everything. Join us in giving back to America’s heroes.</p>
+      <a href="#donate" class="donate-button">Donate Now</a>
+    </header>
+
+    <div class="section" id="donate">
+      <h2>Make a Difference Today</h2>
+      <p>Even $10 can help provide medical supplies, support families of injured soldiers, and fund veteran rehabilitation programs.</p>
+    </div>
+
+    <div class="make-difference">
+      <h2>Make a Real Difference</h2>
+      <p>Behind every uniform is a story of sacrifice. Imagine being thousands of miles from home, injured, alone, and uncertain of the future. Your donation is not just money—it's a message that someone still cares. That their sacrifice meant something. Be the light that shines in their darkest hour. Click donate and help a hero now.</p>
+    </div>
+
+    <div class="section">
+      <h2>Why You Must Donate</h2>
+      <p>Your support is more than financial—it's a message of hope to those who have risked everything. Together, we can offer recovery, honor, and dignity. Your donation goes directly to helping injured or disabled veterans: providing wheelchairs, prosthetic limbs, medical care, and support for their families.</p>
+      <div class="gallery-slider">
+        <img src="https://pbs.twimg.com/media/Gqm4zerXAAAGJo6?format=jpg&name=small" alt="Hero 1">
+        <img src="https://pbs.twimg.com/media/Gqm4zeyWoAAtA1h?format=jpg&name=360x360" alt="Hero 2">
+        <img src="https://pbs.twimg.com/media/F9RJnqQWMAAAg0v?format=jpg&name=small" alt="Hero 3">
+        <img src="https://pbs.twimg.com/media/Ge3fS0gbIAADMFk?format=jpg&name=small" alt="Hero 4">
+        <img src="https://pbs.twimg.com/media/F-RfBWVWIAA13LH?format=jpg&name=small" alt="Hero 5">
+        <img src="https://pbs.twimg.com/card_img/1929695985275752454/K4n0uStq?format=jpg&name=small" alt="Hero 6">
+        <img src="https://pbs.twimg.com/media/EOcjAnSX4AABm4G?format=jpg&name=small" alt="Hero 7">
+        <img src="https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2505/9008261/600x375_q95.jpg" alt="Hero 8">
+        <img src="https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2504/8996992/600x375_q95.jpg" alt="Hero 9">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>MannaHelp’s Back-to-School Event in Ontario</h2>
+      <p>In August 2024, MannaHelp organized a community-driven event in Whitby, Ontario, distributing 141 backpacks and over 1,400 pounds of food to families in need. The day was filled with activities, including barbecues, resume workshops, and heartfelt speeches from local leaders. The smiles and gratitude from the children and parents highlighted the profound impact of community support.</p>
+      <div class="gallery-slider">
+        <img src="https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2504/8977454/500h_q95.jpg" alt="Event Photo 1">
+        <img src="https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2504/8977472/500h_q95.jpg" alt="Event Photo 2">
+        <img src="https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2504/8977484/500h_q95.jpg" alt="Event Photo 3">
+        <img src="https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2504/8977722/500h_q95.jpg" alt="Event Photo 4">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Lagori’s Donation Drive in Mumbai</h2>
+      <p>At the Aarna Foundation in Mumbai, volunteers from Lagori hand-packed and distributed school supplies to underprivileged children. The joy on the children’s faces as they received their new school bags was a testament to the difference such initiatives make. The event emphasized not just the provision of materials but also the importance of building relationships and instilling hope.</p>
+    </div>
+
+    <div class="why-we-need-you">
+      <h2>Why We Need You</h2>
+      <p>Every day, brave men and women return home from service with wounds — some visible, many hidden.</p>
+      <p>They gave everything for their country, but many now face a different kind of battle: injury, trauma, job loss, and feeling forgotten.</p>
+      <p>We started this mission because we believe no soldier should ever have to fight alone.</p>
+      <p>Your support doesn’t just give money — it gives mobility, medical care, hope, and a reminder that someone still cares.</p>
+      <p>Whether it’s a wheelchair, a warm meal, or a phone call to say “we’ve got your back” — every dollar brings real change.</p>
+      <p>This isn’t charity — it’s honor. And together, we can be the reason a hero gets the help they need.</p>
+    </div>
+
+    <div class="section" style="background-color: #F9F9F9; padding: 40px 20px;">
+      <h2 style="color: #0B3D91;">Every child deserves the tools to learn</h2>
+      <p style="font-size: 20px; color: #333;">Every child deserves the tools to learn and the hope for a brighter future. <span style="color: #FBB040; font-weight: bold;">Join us in making a tangible difference—one backpack, one book, one child at a time.</span></p>
+    </div>
+
+    <div class="section policies">
+      <h2>Policies & Terms</h2>
+      <p>All donations are used to directly support veterans and affected individuals through approved medical and rehabilitation programs. We are committed to full transparency and accountability. Personal data collected during donation is kept strictly confidential and handled in accordance with international privacy laws. Refunds can be issued upon valid request within 14 days of donation. By donating, you agree to our mission and our terms.</p>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2025 Support Our Heroes. All rights reserved.</p>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <h3>Donate by Mail</h3>
+    <p>Send your donation to: PO Box 1234, Hero Support, NY 10001</p>
+    <h3>Donate by Text</h3>
+    <p>Text "HERO" to 12345 to donate instantly.</p>
+    <h3>Donate by Phone</h3>
+    <p>Call us at (800) 555-HERO to donate by phone.</p>
+  </div>
+</body>
+</html>
